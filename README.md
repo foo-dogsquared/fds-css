@@ -10,16 +10,21 @@ This is made using SCSS for an easier time constructing this stylesheet as it ge
 
 Anyways, there is one main way on how to utilize this library so far and that is through the `<body>` tag. For this to (mostly) work, declare the `plain-grid-layout` class to the previously mentioned element. This will now enable the grid. Now there are mainly three componenets that makes up the usual layout: the `<header>`, `<main>`, `<footer>`, and the wrappers that is contained within each of them.
 
-For an easier demonstration, this is how the plain boilerplate in order to get the library to be fully working:
+For an easier demonstration, here's the boilerplate in order to get the library to be fully working:
 ```html
     <body class="plain-grid-layout">
         <header><div class="wrapper header">Lorem, ipsum.</div></header>
         <main><div class="wrapper main">
-            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat fugit saepe id accusantium dolor, sunt adipisci inventore illum ratione quas.</div>
-            <div>Explicabo sint animi id quo similique quasi rem alias, tenetur possimus debitis impedit, vero architecto ab doloribus, beatae quas voluptatum!</div>
-            <div>Velit ut eius impedit eum! Libero minima nisi excepturi quo, blanditiis expedita itaque aspernatur adipisci voluptates assumenda ex quos at.</div>
+            <div>Element 1</div>
+            <div>Element 2</div>
+            <div>Element 3</div>
         </div></main>
         <footer><div class="wrapper footer">Lorem ipsum dolor sit.</div></footer>
-        <script src="main.js"></script>
     </body>
 ```
+
+The header and footer over there are already have `flex` as the display value so you might want to go place your sublayouts according to individual containers.
+
+Well, if you are familiar with Jekyll, you might notice that the stylesheet is *pretty much* inspired from the [default stylesheet of the default theme](http://jekyll.github.io/minima/) albeit with a few tweaks, obviously.
+
+You can expand this little layout library as much as you want as long as you credit me (I'm speaking as if anybody will be interested in this, lol).
