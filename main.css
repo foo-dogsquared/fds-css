@@ -75,7 +75,14 @@ footer > .wrapper {
 }
 
 .wrapper.main {
+  display: flex;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
   padding: 20px;
+}
+
+.wrapper.main > * {
+  margin-bottom: 20px;
 }
 
 .wrapper.main > :first-child {
@@ -83,8 +90,11 @@ footer > .wrapper {
   padding-top: 0;
 }
 
-.wrapper.main > * {
-  margin-bottom: 20px;
+.wrapper.main > .centered {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: center;
 }
 
 .wrapper.main > h1:not(:first-child) {
