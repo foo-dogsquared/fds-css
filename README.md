@@ -12,7 +12,7 @@ Anyways, there is one main way on how to utilize this library so far and that is
 
 For an easier demonstration, here's the boilerplate in order to get the library to be fully working:
 ```html
-    <body class="plain-grid-layout">
+    <body id="plain-grid-layout">
         <header><div class="wrapper header">Lorem, ipsum.</div></header>
         <main><div class="wrapper main">
             <div>Element 1</div>
@@ -28,3 +28,7 @@ The header and footer over there are already have `flex` as the display value so
 Well, if you are familiar with Jekyll, you might notice that the stylesheet is *pretty much* inspired from the [default stylesheet of the default theme](http://jekyll.github.io/minima/) albeit with a few tweaks, obviously.
 
 You can expand this little layout library as much as you want as long as you credit me (I'm speaking as if anybody will be interested in this, lol).
+
+### Different layouts
+Yeah, there is different choices on layouts now even though most (or all) or them are still in development. You can see each 
+layout (except for the unsure ones) in the demo page.
